@@ -115,7 +115,7 @@ export default function ExpensesPage() {
   return (
     <div className="animate-fade-in">
       {/* Sticky header */}
-      <div className="sticky top-0 z-20 bg-background border-b border-border flex flex-col w-full">
+      <div className="sticky top-0 z-20 bg-background border-b border-border flex flex-col w-full safe-top">
 
         {/* Title row */}
         <div className="px-4 pt-4 pb-3 flex items-center justify-between w-full">
